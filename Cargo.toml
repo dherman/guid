@@ -1,0 +1,20 @@
+[package]
+name = "guid"
+version = "0.1.0"
+authors = ["David Herman <david.herman@gmail.com>"]
+repository = "https://github.com/dherman/guid"
+license = "MIT/Apache-2.0"
+readme = "README.md"
+
+[dependencies]
+failure = "0.1.1"
+failure_derive = "0.1.1"
+chomp = "0.3.1"
+guid-parser = { version = "0.1.0", path = "./crates/guid-parser" }
+
+[target.'cfg(windows)'.dependencies]
+proc-macro-hack = "0.4"
+guid-macro-impl = { version = "0.1.0", path = "./crates/guid-macro-impl" }
+winapi = "0.2.8"
+
+[workspace]
