@@ -1,5 +1,6 @@
 [package]
 name = "guid-parser"
+description = "Chomp parser for Windows GUID literals."
 version = "0.1.0"
 authors = ["David Herman <david.herman@gmail.com>"]
 repository = "https://github.com/dherman/guid"

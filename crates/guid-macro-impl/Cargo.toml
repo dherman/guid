@@ -1,5 +1,6 @@
 [package]
 name = "guid-macro-impl"
+description = "Implementation crate for the procedural guid! macro."
 version = "0.1.0"
 authors = ["David Herman <david.herman@gmail.com>"]
 repository = "https://github.com/dherman/guid"
